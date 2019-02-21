@@ -1,0 +1,33 @@
+.Home {
+  background-color:black;
+  height:100%;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  opacity: 0.8;
+  overflow-x: hidden;
+  text-align:left;
+  color: white;
+}
+
+.contact-icon {
+  color: white;
+  margin: 5px;
+}
+.contact-icon :hover{
+  color: red;
+  transition: 0.5s;
+}
+.introduction{
+  font-size: 30px;
+  padding-left: 60px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+}
+
+.introduction > *{
+  margin: 0px;
+}

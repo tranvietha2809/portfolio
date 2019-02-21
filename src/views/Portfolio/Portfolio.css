@@ -1,0 +1,23 @@
+.portfolio {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-frame{
+    right: 0;
+    background-color: black;
+    height: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.portfolio-list{
+    text-align: left;
+}

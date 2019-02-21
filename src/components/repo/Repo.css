@@ -1,0 +1,24 @@
+.repo-url{
+    font-size: 27px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+.repo{
+    background-color: white;
+    border: 1px solid black ;
+    list-style-position:inside;
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.repo a:hover{
+    text-decoration: underline;
+}
+
+.repo-desc{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;   
+}

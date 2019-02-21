@@ -1,0 +1,8 @@
+.NavbarButton {
+    font-size: 50px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    right:0;
+}
