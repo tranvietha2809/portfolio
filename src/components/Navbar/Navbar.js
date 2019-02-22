@@ -15,7 +15,7 @@ class Navbar extends Component {
         width: '0%',
       },
       NavbarButton:{
-        color: 'black'
+        color: 'white'
       }
     }
   }
@@ -36,7 +36,7 @@ class Navbar extends Component {
           width: '0%',
         },
         NavbarButton: {
-          color: 'black'
+          color: 'white'
         }
       })
     }

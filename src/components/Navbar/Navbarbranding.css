@@ -13,9 +13,3 @@
   background-color: white	; 
   transition: 0.4s;
 }
-
-.portrait{
-  border: solid 2px red;
-  border-radius: 50%;
-  background: url(../../assets/avatar/avatar.jpg)
-}

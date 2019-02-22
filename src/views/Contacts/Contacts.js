@@ -1,7 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const Contacts = () => {
-  return(<div> Contacts</div>)
+class Contacts extends Component {
+  constructor(){
+    super();
+    this.state = {
+      form: {
+        name: '',
+        email: '',
+        message: ''
+      }
+    }
+  }
+  render(){
+    return (<div>
+      
+    </div>)
+  }
 }
 
 export default Contacts
