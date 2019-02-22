@@ -16,6 +16,9 @@ const Home = () => {
                 <a href ="https://github.com/tranvietha2809" className = "contact-icon">
                   <div className = "fa fa-github"></div>  
                 </a>    
+                <a href ="https://stackoverflow.com/users/8052713/ha-tran" className = "contact-icon">
+                  <div className = "fa fa-stack-overflow"></div>  
+                </a>    
               </td>
               <td>          
               </td>
