@@ -22,7 +22,7 @@ class  Portfolio extends Component {
   render(){
     let repo = this.state.repos.map((e) => {
       return (
-        <Repo name = {e.name} html_url= {e.html_url} description={e.description === null ? "No desc": e.description}/>
+        <Repo name = {e.name} html_url= {e.html_url} description={e.description === null ? "No description :(": e.description}/>
       )
       
     })

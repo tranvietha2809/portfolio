@@ -1,20 +1,16 @@
 import React, {Component} from 'react';
+import ContactForm from '../../components/ContactForm/ContactForm.js'
 
 class Contacts extends Component {
   constructor(){
     super();
-    this.state = {
-      form: {
-        name: '',
-        email: '',
-        message: ''
-      }
-    }
   }
   render(){
-    return (<div>
-      
-    </div>)
+    return (
+      <div className = "Contacts">
+        <ContactForm />
+      </div>
+    )
   }
 }
 
